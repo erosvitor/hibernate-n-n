@@ -1,7 +1,7 @@
 # Hibernate-N-N
 
 ## Description
-The **Hibernate-N-N** is a project shows how use Hibernate ORM to manipulate a many-to-many relationship.
+Project that show how use Hibernate ORM to manipulate a many-to-many relationship.
 
 ## Technologies
 The project uses the following technologies:
