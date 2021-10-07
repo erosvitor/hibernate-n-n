@@ -1,18 +1,28 @@
-# Hibernate-N-N
-
-## Description
-Project that show how use Hibernate ORM to manipulate a many-to-many relationship.
+## About
+The project shows how to use Hibernate ORM to manipulate a many-to-many relationship.
 
 ## Technologies
-The project uses the following technologies:
+The following tools were used in this project:
 
-* Java 11
-* Apache Maven
-* MySQL Server
-* Hibernate ORM
-* IDE Eclipse
+* [Java Oracle](https://www.oracle.com/java/)
+* [Apache Maven](https://maven.apache.org/)
+* [MySQL Server](https://www.mysql.com/)
+* [Hibernate ORM](https://hibernate.org/orm/)
+* [IDE Eclipse](https://www.eclipse.org/)
 
-## Database
+## Requirements
+Before starting this project you need to have Git, JDK Oracle, Maven, MySQL Server and Eclipse IDE installed.
+
+## Starting the project
+
+### Clonning the project
+```
+$ git clone https://github.com/erosvitor/hibernate-n-n.git
+
+$ cd hibernate-n-n
+```
+
+### Creating the database
 ![](references/hibernate-n-n.png)
 
 The above database must be created using the following command:
@@ -86,6 +96,12 @@ INSERT INTO users_profiles (id_user, id_profile) VALUES (13, 4);
 INSERT INTO users_profiles (id_user, id_profile) VALUES (14, 4);
 INSERT INTO users_profiles (id_user, id_profile) VALUES (15, 4);
 ```
+
+### Testing the project
+**Step 1:** Start the application using Eclipse IDE
+
+## License
+This project is under license from MIT. For more details, see the LICENSE file.
 
 ## Release History
 
