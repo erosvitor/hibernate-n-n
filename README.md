@@ -2,16 +2,13 @@
 The project shows how to use Hibernate ORM to manipulate a many-to-many relationship.
 
 ## Technologies
-The following tools were used in this project:
+The following technologies were used in this project:
 
 * [Java Oracle](https://www.oracle.com/java/)
 * [Apache Maven](https://maven.apache.org/)
 * [MySQL Server](https://www.mysql.com/)
 * [Hibernate ORM](https://hibernate.org/orm/)
 * [IDE Eclipse](https://www.eclipse.org/)
-
-## Requirements
-Before starting this project you need to have Git, JDK Oracle, Maven, MySQL Server and Eclipse IDE installed.
 
 ## Starting the project
 
@@ -102,8 +99,3 @@ INSERT INTO users_profiles (id_user, id_profile) VALUES (15, 4);
 
 ## License
 This project is under license from MIT. For more details, see the LICENSE file.
-
-## Release History
-
-* 1.0.0 (2021-05-07)
-    * First version
